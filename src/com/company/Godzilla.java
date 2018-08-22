@@ -4,6 +4,7 @@ public class Godzilla {
     public int volumeOfstomach;
     public double limitOfstomachPer;
     private int eat;
+    private int eate;
 
 
     public void sumEat(int sum){
