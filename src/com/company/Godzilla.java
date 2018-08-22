@@ -4,7 +4,6 @@ public class Godzilla {
     public int volumeOfstomach;
     public double limitOfstomachPer;
     private int eat;
-  
 
     public void sumEat(int sum){
         eat+=sum;
@@ -16,7 +15,5 @@ public class Godzilla {
         boolean n = eat<limitOfstomachPer/100*volumeOfstomach;
         return n;
     }
-
-
 
 }
